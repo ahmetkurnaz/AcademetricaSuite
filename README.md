@@ -8,7 +8,7 @@ Bu depo, Windows ve macOS için derlenmiş en son uygulama dosyalarını içerir
 
 ## 🪟 Windows Kurulumu
 
-1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) sekmesinden en son `.exe` veya `.zip` dosyasını indirin.
+1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases/tag/v0.0.4) sekmesinden en son `.exe` veya `.zip` dosyasını indirin.
 2. Kurulum yapacaksanız:
    - `.exe` dosyasına çift tıklayın ve ekrandaki talimatları izleyin.
 3. Sıkıştırılmış `.zip` kullandıysanız:
@@ -20,7 +20,7 @@ Bu depo, Windows ve macOS için derlenmiş en son uygulama dosyalarını içerir
 
 ## 🍏 macOS Kurulumu
 
-1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) bölümünden `.dmg` dosyasını indirin.
+1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases/tag/v0.0.5) bölümünden `.dmg` dosyasını indirin.
 2. `.dmg` dosyasını açın ve **VeriVeren uygulamasını `Applications` klasörüne sürükleyin**.
 3. Uygulamayı ilk kez açtığınızda şu uyarıyı görebilirsiniz:
 
@@ -41,10 +41,12 @@ Eğer yukarıdaki buton çıkmazsa, Terminal’i açıp şu komutları yazın:
 ```bash
 sudo xattr -d com.apple.quarantine /Applications/VeriVeren.app
 open /Applications/VeriVeren.app
+```
 
 =========================================================================================================
 # ENGLISH
-========================================================================================================
+=========================================================================================================
+
 # VeriVeren
 
 Welcome to the **VeriVeren** release repository!
@@ -86,3 +88,5 @@ If the button above doesn't appear:
 ```bash
 sudo xattr -d com.apple.quarantine /Applications/VeriVeren.app
 open /Applications/VeriVeren.app
+```
+
