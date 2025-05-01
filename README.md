@@ -2,7 +2,7 @@
 
 **VeriVeren** sürüm deposuna hoş geldiniz!
 
-Bu depo, Windows ve macOS için derlenmiş en son uygulama dosyalarını içerir. `.exe`, `.dmg` veya `.zip` dosyalarını [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) sekmesinden indirebilirsiniz.
+Bu depo, Windows ve macOS için derlenmiş en son uygulama dosyalarını içerir. `.exe`, `.dmg` veya `.zip` dosyalarını *Releases* sekmesinden indirebilirsiniz.
 
 
 Notlar
