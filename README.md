@@ -26,6 +26,12 @@ Notlar
 ## 🍏 macOS Kurulumu
 
 1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases/tag/v0.0.5) bölümünden `.dmg` dosyasını indirin.
+
+💡 **Hangi DMG dosyasını indirmeliyim?**  
+ - `*-arm64.dmg`: Apple Silicon (M1, M2, M3) işlemcili Mac'ler içindir.  
+ - `*.dmg` (arm64 olmayan): Intel işlemcili Mac'ler içindir.   
+Emin değilseniz: Sol üstteki Apple menüsünden **"Bu Mac Hakkında"** kısmına bakarak işlemcinizi öğrenebilirsiniz.
+
 2. `.dmg` dosyasını açın ve **VeriVeren uygulamasını `Applications` klasörüne sürükleyin**.
 3. Uygulamayı ilk kez açtığınızda şu uyarıyı görebilirsiniz:
 
@@ -75,6 +81,13 @@ This repository contains the latest pre-built binaries for Windows and macOS. Yo
 ## 🍏 macOS Installation
 
 1. Download the `.dmg` file from the [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases).
+
+💡 **Which DMG should I download?**  
+- `*-arm64.dmg`: For Apple Silicon Macs (M1, M2, M3).
+- Standard `.dmg` (no "arm64" in name): For Intel-based Macs.
+     
+ Not sure which you have? Click the Apple logo in the top-left corner and select **“About This Mac”** to check your processor type.
+
 2. Open the `.dmg` and **drag the VeriVeren app into your `Applications` folder**.
 3. On first launch, macOS **may block the app** with a message like:
 
