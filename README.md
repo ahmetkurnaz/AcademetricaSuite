@@ -4,7 +4,12 @@
 
 Bu depo, Windows ve macOS için derlenmiş en son uygulama dosyalarını içerir. `.exe`, `.dmg` veya `.zip` dosyalarını [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) sekmesinden indirebilirsiniz.
 
----
+
+Notlar
+- Bu uygulama henüz Apple veya Microsoft tarafından imzalanmamıştır. Bu nedenle macOS ve Windows bazı güvenlik uyarıları gösterebilir. Bu durum uygulamanın zararlı olduğu anlamına gelmez.
+- Uygulamayı güvenilir bir kaynaktan (örneğin bu GitHub sayfası) indiriyorsanız, çalıştırmanız güvenlidir.
+
+
 
 ## 🪟 Windows Kurulumu
 
