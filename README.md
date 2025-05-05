@@ -45,7 +45,7 @@ Emin değilseniz: Sol üstteki Apple menüsünden **"Bu Mac Hakkında"** kısmı
 2. Aşağıya kaydırın. “VeriVeren uygulamasının açılmasına izin verilmiyor” mesajını bulun.
 3. Yanındaki **“Yine de Aç”** butonuna tıklayın ve açmayı onaylayın.
 
-#### VEYA Terminal ile aç (ileri düzey kullanıcılar için):
+#### VEYA Terminal ile aç:
 
 Eğer yukarıdaki buton çıkmazsa, Terminal’i açıp şu komutları yazın:
 
