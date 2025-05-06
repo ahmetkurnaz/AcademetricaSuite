@@ -13,7 +13,7 @@ Notlar
 
 ## 🪟 Windows Kurulumu
 
-1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) sekmesinden en son `.exe` veya `.zip` dosyasını indirin.
+1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) sekmesinden en son `.exe` dosyasını indirin.
 2. Kurulum yapacaksanız:
    - `.exe` dosyasına çift tıklayın ve ekrandaki talimatları izleyin.
 3. Sıkıştırılmış `.zip` kullandıysanız:
