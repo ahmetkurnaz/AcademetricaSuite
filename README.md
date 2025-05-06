@@ -13,7 +13,7 @@ Notlar
 
 ## 🪟 Windows Kurulumu
 
-1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases/tag/v0.0.4) sekmesinden en son `.exe` veya `.zip` dosyasını indirin.
+1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) sekmesinden en son `.exe` veya `.zip` dosyasını indirin.
 2. Kurulum yapacaksanız:
    - `.exe` dosyasına çift tıklayın ve ekrandaki talimatları izleyin.
 3. Sıkıştırılmış `.zip` kullandıysanız:
@@ -25,7 +25,7 @@ Notlar
 
 ## 🍏 macOS Kurulumu
 
-1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases/tag/v0.0.5) bölümünden `.dmg` dosyasını indirin.
+1. [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) bölümünden `.dmg` dosyasını indirin.
 
 💡 **Hangi DMG dosyasını indirmeliyim?**  
  - `*-arm64.dmg`: Apple Silicon (M1, M2, M3) işlemcili Mac'ler içindir.  
@@ -100,7 +100,7 @@ This repository contains the latest pre-built binaries for Windows and macOS. Yo
 2. Scroll down and find a message about “VeriVeren” being blocked.
 3. Click **“Open Anyway”**, then confirm.
 
-#### OR use Terminal (advanced users):
+#### OR use Terminal:
 If the button above doesn't appear:
 
 ```bash
