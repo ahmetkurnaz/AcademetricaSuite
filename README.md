@@ -1,3 +1,57 @@
+
+# VeriVeren
+
+Welcome to the **VeriVeren** release repository!
+
+This repository contains the latest pre-built binaries for Windows and macOS. You can download the `.exe`, `.dmg`, or `.zip` files directly from the [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) section.
+
+---
+
+## 🪟 Windows Installation
+
+1. Download the latest `.exe` or `.zip` file from the [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) section.
+2. If using the installer:
+   - Double-click the `.exe` file and follow the on-screen instructions.
+3. If using the `.zip`:
+   - Extract it anywhere and run `VeriVeren.exe`.
+
+> ⚠️ Windows SmartScreen may show a warning (because the app is not code-signed). Click **"More info" → "Run anyway"**.
+
+---
+
+## 🍏 macOS Installation
+
+1. Download the `.dmg` file from the [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases).
+
+💡 **Which DMG should I download?**  
+- `*-arm64.dmg`: For Apple Silicon Macs (M1, M2, M3).
+- Standard `.dmg` (no "arm64" in name): For Intel-based Macs.
+     
+ Not sure which you have? Click the Apple logo in the top-left corner and select **“About This Mac”** to check your processor type.
+
+2. Open the `.dmg` and **drag the VeriVeren app into your `Applications` folder**.
+3. On first launch, macOS **may block the app** with a message like:
+
+   > “VeriVeren” cannot be opened because Apple cannot check it for malicious software.
+
+### ✅ To open the app anyway:
+
+#### macOS Ventura / Sonoma (or newer):
+1. Go to **System Settings → Privacy & Security**.
+2. Scroll down and find a message about “VeriVeren” being blocked.
+3. Click **“Open Anyway”**, then confirm.
+
+#### OR use Terminal:
+If the button above doesn't appear:
+
+```bash
+sudo xattr -d com.apple.quarantine /Applications/VeriVeren.app
+open /Applications/VeriVeren.app
+```
+=======================================================================
+# TR
+=======================================================================
+
 # VeriVeren
 
 **VeriVeren** sürüm deposuna hoş geldiniz!
@@ -54,57 +108,5 @@ sudo xattr -d com.apple.quarantine /Applications/VeriVeren.app
 open /Applications/VeriVeren.app
 ```
 
-=======================================================================
-# ENGLISH
-=======================================================================
 
-# VeriVeren
-
-Welcome to the **VeriVeren** release repository!
-
-This repository contains the latest pre-built binaries for Windows and macOS. You can download the `.exe`, `.dmg`, or `.zip` files directly from the [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) section.
-
----
-
-## 🪟 Windows Installation
-
-1. Download the latest `.exe` or `.zip` file from the [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases) section.
-2. If using the installer:
-   - Double-click the `.exe` file and follow the on-screen instructions.
-3. If using the `.zip`:
-   - Extract it anywhere and run `VeriVeren.exe`.
-
-> ⚠️ Windows SmartScreen may show a warning (because the app is not code-signed). Click **"More info" → "Run anyway"**.
-
----
-
-## 🍏 macOS Installation
-
-1. Download the `.dmg` file from the [Releases](https://github.com/ahmetkurnaz/VeriVeren/releases).
-
-💡 **Which DMG should I download?**  
-- `*-arm64.dmg`: For Apple Silicon Macs (M1, M2, M3).
-- Standard `.dmg` (no "arm64" in name): For Intel-based Macs.
-     
- Not sure which you have? Click the Apple logo in the top-left corner and select **“About This Mac”** to check your processor type.
-
-2. Open the `.dmg` and **drag the VeriVeren app into your `Applications` folder**.
-3. On first launch, macOS **may block the app** with a message like:
-
-   > “VeriVeren” cannot be opened because Apple cannot check it for malicious software.
-
-### ✅ To open the app anyway:
-
-#### macOS Ventura / Sonoma (or newer):
-1. Go to **System Settings → Privacy & Security**.
-2. Scroll down and find a message about “VeriVeren” being blocked.
-3. Click **“Open Anyway”**, then confirm.
-
-#### OR use Terminal:
-If the button above doesn't appear:
-
-```bash
-sudo xattr -d com.apple.quarantine /Applications/VeriVeren.app
-open /Applications/VeriVeren.app
-```
 
