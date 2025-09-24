@@ -45,8 +45,8 @@ This repository contains the latest pre-built binaries for Windows and macOS. Yo
 If the button above doesn't appear:
 
 ```bash
-sudo xattr -d com.apple.quarantine /Applications/Academetrica Suite.app
-open /Applications/Academetrica Suite.app
+sudo xattr -d com.apple.quarantine /Applications/Academetrica\ Suite.app
+open /Applications/Academetrica\ Suite.app
 ```
 =======================================================================
 # TR
@@ -104,8 +104,8 @@ Emin değilseniz: Sol üstteki Apple menüsünden **"Bu Mac Hakkında"** kısmı
 Eğer yukarıdaki buton çıkmazsa, Terminal’i açıp şu komutları yazın:
 
 ```bash
-sudo xattr -d com.apple.quarantine /Applications/Academetrica Suite.app
-open /Applications/Academetrica Suite.app
+sudo xattr -d com.apple.quarantine /Applications/Academetrica\ Suite.app
+open /Applications/Academetrica\ Suite.app
 ```
 
 
