@@ -19,35 +19,6 @@ This repository contains the latest pre-built binaries for Windows and macOS. Yo
 
 ---
 
-## 🍏 macOS Installation
-
-1. Download the `.dmg` file from the [Releases](https://github.com/ahmetkurnaz/AcademetricaSuite/releases).
-
-💡 **Which DMG should I download?**  
-- `*-arm64.dmg`: For Apple Silicon Macs (M1, M2, M3).
-- Standard `.dmg` (no "arm64" in name): For Intel-based Macs.
-     
- Not sure which you have? Click the Apple logo in the top-left corner and select **“About This Mac”** to check your processor type.
-
-2. Open the `.dmg` and **drag the Academetrica Suite app into your `Applications` folder**.
-3. On first launch, macOS **may block the app** with a message like:
-
-   > “Academetrica Suite” cannot be opened because Apple cannot check it for malicious software.
-
-### ✅ To open the app anyway:
-
-#### macOS Ventura / Sonoma (or newer):
-1. Go to **System Settings → Privacy & Security**.
-2. Scroll down and find a message about “Academetrica Suite” being blocked.
-3. Click **“Open Anyway”**, then confirm.
-
-#### OR use Terminal:
-If the button above doesn't appear:
-
-```bash
-sudo xattr -d com.apple.quarantine /Applications/Academetrica\ Suite.app
-open /Applications/Academetrica\ Suite.app
-```
 =======================================================================
 # TR
 =======================================================================
@@ -76,37 +47,5 @@ Notlar
 > ⚠️ Windows, imzasız uygulamalar için uyarı verebilir. **“More info (Daha fazla bilgi)” → “Run anyway (Yine de çalıştır)”** seçerek devam edebilirsiniz.
 
 ---
-
-## 🍏 macOS Kurulumu
-
-1. [Releases](https://github.com/ahmetkurnaz/Academetrica Suite/releases) bölümünden `.dmg` dosyasını indirin.
-
-💡 **Hangi DMG dosyasını indirmeliyim?**  
- - `*-arm64.dmg`: Apple Silicon (M1, M2, M3) işlemcili Mac'ler içindir.  
- - `*.dmg` (arm64 olmayan): Intel işlemcili Mac'ler içindir.   
-Emin değilseniz: Sol üstteki Apple menüsünden **"Bu Mac Hakkında"** kısmına bakarak işlemcinizi öğrenebilirsiniz.
-
-2. `.dmg` dosyasını açın ve **Academetrica Suite uygulamasını `Applications` klasörüne sürükleyin**.
-3. Uygulamayı ilk kez açtığınızda şu uyarıyı görebilirsiniz:
-
-   > “Academetrica Suite” açılamıyor çünkü Apple bu uygulamayı zararlı yazılımlara karşı denetleyemiyor.
-
-### ✅ Bu uyarıyı aşmak için:
-
-#### macOS Ventura / Sonoma (ve sonrası):
-
-1. **Sistem Ayarları → Gizlilik ve Güvenlik** menüsüne gidin.
-2. Aşağıya kaydırın. “Academetrica Suite uygulamasının açılmasına izin verilmiyor” mesajını bulun.
-3. Yanındaki **“Yine de Aç”** butonuna tıklayın ve açmayı onaylayın.
-
-#### VEYA Terminal ile aç:
-
-Eğer yukarıdaki buton çıkmazsa, Terminal’i açıp şu komutları yazın:
-
-```bash
-sudo xattr -d com.apple.quarantine /Applications/Academetrica\ Suite.app
-open /Applications/Academetrica\ Suite.app
-```
-
 
 
